@@ -38,3 +38,5 @@ func installGenericService(c *cli.Context) error {
 func uninstallGenericService(c *cli.Context) error {
 	return fmt.Errorf("service uninstallation is not supported on this operating system")
 }
+
+var createTokenFile = createTokenFileUnix
